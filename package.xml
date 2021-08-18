@@ -1,0 +1,121 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check%28In%29 Mate</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>CheckIn_CMV</namespacePrefix>
+    <types>
+        <members>calculateGeoDistance</members>
+        <members>getCurrentLocation</members>
+        <members>navigatoToRecord</members>
+        <members>showToast</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Visit__c.Visit</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Visit_Compliance__mdt.Allow_Non_compliant_Visits__c</members>
+        <members>Visit_Compliance__mdt.Max_Distance__c</members>
+        <members>Visit_Compliance__mdt.Navigate_to_Visit_on_Check_In__c</members>
+        <members>Visit_Compliance__mdt.Navigate_to_Visit_on_Check_Out__c</members>
+        <members>Visit__c.Account__c</members>
+        <members>Visit__c.Check_in_Comments__c</members>
+        <members>Visit__c.Check_in_Coordinates__c</members>
+        <members>Visit__c.Check_in_Date_Time__c</members>
+        <members>Visit__c.Check_in_Distance__c</members>
+        <members>Visit__c.Check_in_Max_Distance_Compliance__c</members>
+        <members>Visit__c.Check_out_Comments__c</members>
+        <members>Visit__c.Check_out_Coordinates__c</members>
+        <members>Visit__c.Check_out_Date_Time__c</members>
+        <members>Visit__c.Check_out_Distance__c</members>
+        <members>Visit__c.Check_out_Max_Distance_Compliance__c</members>
+        <members>Visit__c.Compliance_Now__c</members>
+        <members>Visit__c.Compliance_on_Visit__c</members>
+        <members>Visit__c.Contact__c</members>
+        <members>Visit__c.Lead__c</members>
+        <members>Visit__c.Opportunity__c</members>
+        <members>Visit__c.Visit_Duration__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ErrorBrowserSupport</members>
+        <members>ErrorPositionUnavailable</members>
+        <members>ErrorTimeout</members>
+        <members>ErrorUnknown</members>
+        <members>ErrorUserDenied</members>
+        <members>MapLoading</members>
+        <members>MapTitle</members>
+        <members>MarkerTitle</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Visit_Compliance.Default</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Visit_Compliance__mdt</members>
+        <members>Visit__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Visit__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Visit_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Check_In</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Visit_Compliance__mdt-Visit Compliance Layout</members>
+        <members>Visit__c-Visit Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>checkIn</members>
+        <members>errorPanel</members>
+        <members>ldsUtils</members>
+        <members>visitMap</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Visit__c.All</members>
+        <members>Visit__c.All_Accounts</members>
+        <members>Visit__c.All_Contacts</members>
+        <members>Visit__c.All_Leads</members>
+        <members>Visit__c.All_Opportunity</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Check_In_Mate_Admin</members>
+        <members>Check_In_Mate_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Account.Check_In_Out</members>
+        <members>Contact.Check_In_Out</members>
+        <members>Lead.Check_In_Out</members>
+        <members>Opportunity.Check_In_Out</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>error_icon_non_compliant</members>
+        <members>success_icon_compliant</members>
+        <name>StaticResource</name>
+    </types>
+    <version>51.0</version>
+</Package>

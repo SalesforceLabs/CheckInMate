@@ -1,0 +1,31 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property label="Object Name" name="objectName" type="String" role="inputOnly" />
+            <property label="Object Description" name="objectDescription" type="String" role="inputOnly" />
+            <property label="Object City" name="objectCity" type="String" role="inputOnly" />
+            <property label="Object Country" name="objectCountry" type="String" role="inputOnly" />
+            <property label="Object Postal Code" name="objectPostalCode" type="String" role="inputOnly" />
+            <property label="Object State" name="objectState" type="String" role="inputOnly" />
+            <property label="Object Street" name="objectStreet" type="String" role="inputOnly" />
+            <property label="Object Icon" name="objectIcon" type="String" description="Object Icon on legend. For more options go to https://lightningdesignsystem.com/icons/" default="standard:store_group" role="inputOnly" />
+            <property label="User Latitude" name="userLatitude" type="String" role="inputOnly" />
+            <property label="User Longitude" name="userLongitude" type="String" role="inputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

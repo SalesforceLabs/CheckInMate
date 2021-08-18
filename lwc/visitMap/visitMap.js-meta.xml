@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Visit Map</masterLabel>
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property label="Markers Title" name="markersTitle" type="String" default="Markers" description="Provides the heading title for the markers. Required if specifying multiple markers. The title is displayed below the map as a header for the list of clickable addresses." />
+            <property label="List View Mode" name="listView" type="String" datasource="visible,hidden,auto" default="visible" description="Displays or hides the list of locations. Valid values are visible, hidden, or auto. This value defaults to auto, which shows the list only when multiple markers are present. Passing in an invalid value hides the list view." />
+            <property label="Show Footer" name="showFooter" type="Boolean" default="false" description="TODO" />
+            <property label="Zoom Level" name="zoomLevel" type="Integer" max="18" min="0" description="The zoom levels as defined by Google Maps API. If a zoom level is not specified, a default zoom level is applied to accommodate all markers on the map." />
+            <objects>
+                <object>Visit__c</object>
+            </objects>
+            <supportedFormFactors>
+                <supportedFormFactor type="Large" />
+                <supportedFormFactor type="Small" />
+            </supportedFormFactors>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

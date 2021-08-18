@@ -1,0 +1,13 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<aura:component implements="lightning:availableForFlowActions" access="global">
+    <aura:attribute name="type" type="String" default="success" />
+    <aura:attribute name="message" type="String" />
+    <aura:attribute name="duration" type="Integer" />
+    <aura:attribute name="mode" type="String" />
+</aura:component>

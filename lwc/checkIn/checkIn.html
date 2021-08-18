@@ -1,0 +1,19 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<template>
+  <template if:true={isLoaded}>
+    <lightning-map map-markers={mapMarkers} markers-title={htmlMarkerTitle}></lightning-map>
+  </template>
+
+
+  <template if:false={isLoaded}>
+    <div class="spinnerHolder">
+      <lightning-spinner alternative-text={htmlMapLoading} size="medium"></lightning-spinner>
+    </div>
+  </template>
+</template>

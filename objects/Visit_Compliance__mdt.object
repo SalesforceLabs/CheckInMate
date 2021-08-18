@@ -1,0 +1,52 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Allow_Non_compliant_Visits__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Allow Non-compliant Visits</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Max_Distance__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Max Distance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Navigate_to_Visit_on_Check_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Navigate to Visit on Check In</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Navigate_to_Visit_on_Check_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Navigate to Visit on Check Out</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Visit Compliance</label>
+    <pluralLabel>Visit Compliances</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

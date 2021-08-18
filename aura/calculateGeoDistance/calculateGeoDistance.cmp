@@ -1,0 +1,15 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<aura:component implements="lightning:availableForFlowActions" access="global">
+    <aura:attribute name="fromLat" type="Decimal" access="global" />
+    <aura:attribute name="fromLong" type="Decimal" access="global" />
+    <aura:attribute name="toLat" type="Decimal" access="global" />
+    <aura:attribute name="toLong" type="Decimal" access="global" />
+
+    <aura:attribute name="distance" type="Decimal" access="global" />
+</aura:component>

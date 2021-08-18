@@ -1,0 +1,74 @@
+<!--
+ Copyright (c) 2021, salesforce.com, inc.
+ All rights reserved.
+ SPDX-License-Identifier: BSD-3-Clause
+ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ErrorBrowserSupport</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorBrowserSupport</shortDescription>
+        <value>Geolocation is not supported by your browser.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorPositionUnavailable</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorPositionUnavailable</shortDescription>
+        <value>Location information is unavailable.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorTimeout</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorTimeout</shortDescription>
+        <value>The request to get user location timed out.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorUnknown</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorUnknown</shortDescription>
+        <value>An unknown error occurred.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorUserDenied</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorUserDenied</shortDescription>
+        <value>User denied the request for Geolocation.</value>
+    </labels>
+    <labels>
+        <fullName>MapLoading</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MapLoading</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>MapTitle</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MapTitle</shortDescription>
+        <value>Current Location</value>
+    </labels>
+    <labels>
+        <fullName>MarkerTitle</fullName>
+        <categories>Check-In</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarkerTitle</shortDescription>
+        <value>Markers</value>
+    </labels>
+</CustomLabels>
