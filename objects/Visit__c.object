@@ -225,10 +225,11 @@
         <fullName>Check_in_Distance__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
+        <inlineHelpText>In Kilometers</inlineHelpText>
         <label>Check-in Distance</label>
         <precision>18</precision>
         <required>false</required>
-        <scale>8</scale>
+        <scale>3</scale>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -238,10 +239,11 @@
         <fullName>Check_in_Max_Distance_Compliance__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
+        <inlineHelpText>In Kilometers</inlineHelpText>
         <label>Check-in Max Distance Compliance</label>
         <precision>18</precision>
         <required>false</required>
-        <scale>6</scale>
+        <scale>3</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -284,10 +286,11 @@
         <deprecated>false</deprecated>
         <description>Distance from check-out location to related object address.</description>
         <externalId>false</externalId>
+        <inlineHelpText>In Kilometers</inlineHelpText>
         <label>Check-out Distance</label>
         <precision>18</precision>
         <required>false</required>
-        <scale>8</scale>
+        <scale>3</scale>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -297,10 +300,11 @@
         <fullName>Check_out_Max_Distance_Compliance__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
+        <inlineHelpText>In Kilometers</inlineHelpText>
         <label>Check-out Max Distance Compliance</label>
         <precision>18</precision>
         <required>false</required>
-        <scale>6</scale>
+        <scale>3</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>

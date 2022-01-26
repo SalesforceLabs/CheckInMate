@@ -21,10 +21,11 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>In Kilometers</inlineHelpText>
         <label>Max Distance</label>
         <precision>18</precision>
         <required>false</required>
-        <scale>6</scale>
+        <scale>3</scale>
         <type>Number</type>
         <unique>false</unique>
     </fields>

@@ -6,6 +6,27 @@
  */
 
 ({
+    validateCoordinates: function (coordinates) {
+        for (let key of Object.keys(coordinates)) {
+            if (coordinates[key] === null ||
+                coordinates[key] === undefined ||
+                coordinates[key] === '') {
+                throw 'One or more coordinates are invalid. Make sure the records geolocation or address fields are not empty and the setup has been done';
+            }
+        }
+    },
+    replaceDecimalPoint: function (coordinates) {
+        // standardize decimal point to a dot if it comes as comma
+
+        const cleanedCoordinates = {
+            fromLat: parseFloat(coordinates.fromLat.toString().replace(',', '.')),
+            fromLong: parseFloat(coordinates.fromLong.toString().replace(',', '.')),
+            toLat: parseFloat(coordinates.toLat.toString().replace(',', '.')),
+            toLong: parseFloat(coordinates.toLong.toString().replace(',', '.'))
+        }
+
+        return cleanedCoordinates;
+    },
     calculateDistance: function (lat1, lon1, lat2, lon2) {
         //Haversine Formula to calculate distance in kilometers between two coordinates on a sphere 'as the crow flies'
 

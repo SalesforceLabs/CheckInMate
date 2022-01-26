@@ -31,6 +31,7 @@
                     <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -48,6 +49,7 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>visitMap</componentName>
+                <identifier>CheckIn_CMV_visitMap</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>
@@ -72,6 +74,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>
@@ -84,6 +87,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>
@@ -101,6 +105,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel2</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>
@@ -125,6 +130,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-d8e9d2d5-9eb9-4af3-a995-ecb78875ae1c</name>
@@ -138,6 +144,7 @@
                     <value>Facet-d8e9d2d5-9eb9-4af3-a995-ecb78875ae1c</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>
@@ -167,6 +174,7 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentName>visitMap</componentName>
+                <identifier>CheckIn_CMV_visitMap2</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!$Client.formFactor}</leftValue>

@@ -522,6 +522,7 @@
             <label>Opportunity</label>
         </rules>
     </decisions>
+    <description>This is a template. Do not activate. Create a new flow based on this template (reference the documentation for more detail)</description>
     <formulas>
         <name>isDistanceCompliant</name>
         <dataType>Boolean</dataType>
@@ -1263,7 +1264,7 @@
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
-        <scale>2</scale>
+        <scale>3</scale>
         <value>
             <elementReference>Calculate_Distance.distance</elementReference>
         </value>

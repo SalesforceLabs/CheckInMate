@@ -7,15 +7,19 @@
 
 ({
     invoke: function (component, event, helper) {
-        const fromLat = parseFloat(component.get('v.fromLat'));
-        const fromLong = parseFloat(component.get('v.fromLong'));
-        const toLat = parseFloat(component.get('v.toLat'));
-        const toLong = parseFloat(component.get('v.toLong'));
+        const coordinates = {
+            fromLat: component.get('v.fromLat'),
+            fromLong: component.get('v.fromLong'),
+            toLat: component.get('v.toLat'),
+            toLong: component.get('v.toLong')
+        };
 
-        if (!(fromLat && fromLong && toLat && toLong)) throw 'One or more coordinates are null. Make sure the records geolocation or address fields are not empty and the setup has been done';
+        helper.validateCoordinates(coordinates);
+
+        const { fromLat, fromLong, toLat, toLong } = helper.replaceDecimalPoint(coordinates);
 
         let distance = helper.calculateDistance(fromLat, fromLong, toLat, toLong);
-        distance = distance.toString();
+
         component.set('v.distance', distance);
     }
 })
